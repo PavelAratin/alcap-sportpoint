@@ -126,6 +126,12 @@ body {
   font-size: 13px;
   margin-bottom: 20px;
 }
+.nav__item {
+  position: relative;
+}
+.nav__item:hover .nav-list-lvl-2 {
+  display: block;
+}
 /* nav end */
 
 /* action header */
@@ -464,3 +470,18 @@ body {
 }
 
 /* footer end */
+
+/* nav-list-lvl-2 start */
+.nav-list-lvl-2 {
+  position: absolute;
+  padding: 20px;
+  z-index: 2;
+  font-size: 13px;
+  background-color: #f7f6f6;
+  /* top: 30px; */
+  display: none;
+}
+.nav-list-lvl-2__item {
+  padding: 10px;
+}
+/* nav-list-lvl-2 end */
